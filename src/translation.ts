@@ -1,17 +1,17 @@
 import i18n from "i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
-import XHR from "i18next-xhr-backend";
+import HttpBackend from "i18next-http-backend"; 
 
 import translationEn from "./locales/en/translation.json";
-import translationEs from "./locales/es/translation.json";
+import translationEs from "./locales/id/translation.json";
 
 i18n
-  .use(XHR)
+  .use(HttpBackend) 
   .use(LanguageDetector)
   .init({
     debug: false,
-    lng: "en",
-    fallbackLng: "en",
+    lng: "id",
+    fallbackLng: "id", 
 
     keySeparator: false,
     interpolation: {
@@ -22,7 +22,7 @@ i18n
       en: {
         translations: translationEn,
       },
-      es: {
+      id: { // ✅ GANTI dari "es" ke "id"
         translations: translationEs,
       },
     },
