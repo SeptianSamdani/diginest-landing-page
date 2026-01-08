@@ -6,6 +6,9 @@ import MissionContent from "../../content/MissionContent.json";
 import ProductContent from "../../content/ProductContent.json";
 import PortfolioContent from "../../content/PortfolioContent.json";
 import ContactContent from "../../content/ContactContent.json";
+import PricingContent from "../../content/PricingContent.json";
+import FAQContent from '../../content/FAQContent.json'; 
+
 
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
@@ -13,6 +16,8 @@ const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
 const Portfolio = lazy(() => import("../../components/Portfolio"));
+const Pricing = lazy(() => import("../../components/Pricing"));
+const FAQ = lazy(() => import('../../components/FAQ'));
 
 const Home = () => {
   return (
@@ -51,6 +56,18 @@ const Home = () => {
         subtitle={PortfolioContent.subtitle}
         items={PortfolioContent.items}
         id="portfolio"
+      />
+      <Pricing
+        title={PricingContent.title}
+        subtitle={PricingContent.subtitle}
+        plans={PricingContent.plans}
+        id="pricing"
+      />
+      <FAQ
+        title={FAQContent.title}
+        subtitle={FAQContent.subtitle}
+        items={FAQContent.items}
+        id="faq"
       />
       <ContentBlock
         direction="left"

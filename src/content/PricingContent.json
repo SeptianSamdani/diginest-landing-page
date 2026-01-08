@@ -1,0 +1,73 @@
+{
+  "title": "Paket Layanan Kami",
+  "subtitle": "Pilih paket yang sesuai dengan kebutuhan dan budget bisnis Anda. Semua paket sudah termasuk support dan maintenance",
+  "plans": [
+    {
+      "id": 1,
+      "name": "Starter",
+      "price": "2.5 Juta",
+      "unit": "paket",
+      "description": "Cocok untuk landing page atau website profil sederhana",
+      "buttonText": "Pilih Paket",
+      "features": [
+        { "text": "Desain Responsif", "included": true },
+        { "text": "3-5 Halaman", "included": true },
+        { "text": "Domain Gratis 1 Tahun", "included": true },
+        { "text": "Hosting 1 Tahun", "included": true },
+        { "text": "SSL Certificate", "included": true },
+        { "text": "SEO Basic", "included": true },
+        { "text": "Form Kontak", "included": true },
+        { "text": "Google Maps", "included": true },
+        { "text": "Revisi 2x", "included": true },
+        { "text": "Maintenance 3 Bulan", "included": true },
+        { "text": "Admin Panel", "included": false },
+        { "text": "E-commerce", "included": false }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Professional",
+      "price": "5 Juta",
+      "unit": "paket",
+      "description": "Untuk company profile atau bisnis yang membutuhkan fitur lebih lengkap",
+      "popular": true,
+      "buttonText": "Pilih Paket",
+      "features": [
+        { "text": "Desain Responsif Premium", "included": true },
+        { "text": "7-10 Halaman", "included": true },
+        { "text": "Domain Gratis 1 Tahun", "included": true },
+        { "text": "Hosting 1 Tahun", "included": true },
+        { "text": "SSL Certificate", "included": true },
+        { "text": "SEO Advanced", "included": true },
+        { "text": "Form Kontak & WhatsApp", "included": true },
+        { "text": "Google Maps & Analytics", "included": true },
+        { "text": "Revisi 5x", "included": true },
+        { "text": "Maintenance 6 Bulan", "included": true },
+        { "text": "Admin Panel CMS", "included": true },
+        { "text": "Blog System", "included": true }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Enterprise",
+      "price": "10 Juta+",
+      "unit": "mulai dari",
+      "description": "Solusi custom untuk toko online atau aplikasi web kompleks",
+      "buttonText": "Konsultasi",
+      "features": [
+        { "text": "Desain Custom Premium", "included": true },
+        { "text": "Unlimited Halaman", "included": true },
+        { "text": "Domain Gratis 1 Tahun", "included": true },
+        { "text": "Hosting Premium 1 Tahun", "included": true },
+        { "text": "SSL Certificate", "included": true },
+        { "text": "SEO Optimization", "included": true },
+        { "text": "Multi Form & Integration", "included": true },
+        { "text": "Advanced Analytics", "included": true },
+        { "text": "Revisi Unlimited", "included": true },
+        { "text": "Maintenance 1 Tahun", "included": true },
+        { "text": "Admin Panel Full", "included": true },
+        { "text": "E-commerce & Payment", "included": true }
+      ]
+    }
+  ]
+}

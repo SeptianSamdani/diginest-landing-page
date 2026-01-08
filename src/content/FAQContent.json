@@ -1,0 +1,46 @@
+{
+  "title": "Pertanyaan Yang Sering Diajukan",
+  "subtitle": "Temukan jawaban untuk pertanyaan umum seputar layanan pembuatan website kami",
+  "items": [
+    {
+      "id": 1,
+      "question": "Berapa lama waktu pengerjaan website?",
+      "answer": "Waktu pengerjaan bervariasi tergantung paket dan kompleksitas. Paket Starter 7-14 hari, Professional 14-21 hari, dan Enterprise 30-45 hari. Kami akan memberikan timeline detail setelah diskusi kebutuhan project Anda."
+    },
+    {
+      "id": 2,
+      "question": "Apakah harga sudah termasuk domain dan hosting?",
+      "answer": "Ya, semua paket sudah termasuk domain gratis 1 tahun dan hosting. Setelah tahun pertama, Anda bisa perpanjang dengan biaya sekitar 200-500rb/tahun tergantung spesifikasi yang dibutuhkan."
+    },
+    {
+      "id": 3,
+      "question": "Apakah saya bisa update konten website sendiri?",
+      "answer": "Untuk paket Professional dan Enterprise, kami menyediakan admin panel/CMS yang mudah digunakan sehingga Anda bisa update konten sendiri. Paket Starter bisa upgrade ke sistem CMS dengan biaya tambahan."
+    },
+    {
+      "id": 4,
+      "question": "Bagaimana proses pembayarannya?",
+      "answer": "Sistem pembayaran bertahap: 50% DP setelah kesepakatan, 30% saat progress 70%, dan 20% pelunasan setelah website selesai. Kami terima transfer bank, e-wallet, dan QRIS."
+    },
+    {
+      "id": 5,
+      "question": "Apakah website bisa diakses di mobile?",
+      "answer": "Ya, semua website yang kami buat sudah responsive dan mobile-friendly. Website akan tampil optimal di desktop, tablet, dan smartphone dengan berbagai ukuran layar."
+    },
+    {
+      "id": 6,
+      "question": "Apakah ada garansi jika ada masalah teknis?",
+      "answer": "Semua paket sudah termasuk maintenance gratis sesuai durasi di masing-masing paket. Kami juga memberikan garansi bug fixing selama periode maintenance. Setelah periode berakhir, tersedia paket maintenance bulanan."
+    },
+    {
+      "id": 7,
+      "question": "Apakah website sudah SEO friendly?",
+      "answer": "Ya, semua website kami develop dengan standar SEO. Paket Professional dan Enterprise mendapat optimasi SEO lebih lengkap termasuk meta tags, sitemap, dan optimasi kecepatan loading."
+    },
+    {
+      "id": 8,
+      "question": "Bagaimana jika saya ingin fitur yang tidak ada di paket?",
+      "answer": "Kami sangat fleksibel! Anda bisa custom fitur sesuai kebutuhan dengan biaya tambahan. Silakan konsultasi dengan tim kami untuk mendapatkan quotation khusus untuk fitur tambahan yang Anda inginkan."
+    }
+  ]
+}
