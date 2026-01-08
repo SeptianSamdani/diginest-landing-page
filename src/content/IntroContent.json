@@ -1,12 +1,12 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "Solusi Website Profesional untuk Bisnis Anda",
+  "text": "Diginest Agency hadir sebagai partner terpercaya dalam pengembangan website. Kami menciptakan website yang modern, responsif, dan sesuai kebutuhan bisnis Anda.",
   "button": [
     {
-      "title": "Explore"
+      "title": "Lihat Layanan"
     },
     {
-      "title": "Learn more",
+      "title": "Hubungi Kami",
       "color": "#fff"
     }
   ]

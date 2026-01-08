@@ -1,15 +1,15 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Teknologi Modern & Responsif",
+  "text": "Kami menggunakan teknologi terkini untuk memastikan website Anda cepat, aman, dan mudah diakses di semua perangkat.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "Desain Responsif",
+      "content": "Website yang sempurna di desktop, tablet, dan smartphone untuk jangkauan maksimal.",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "SEO Friendly",
+      "content": "Dioptimalkan untuk mesin pencari agar bisnis Anda mudah ditemukan calon pelanggan.",
       "icon": "notes.svg"
     }
   ]

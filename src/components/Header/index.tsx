@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Row, Col, Drawer } from "antd";
 import { withTranslation, TFunction } from "react-i18next";
 import Container from "../../common/Container";
-import { SvgIcon } from "../../common/SvgIcon";
 import { Button } from "../../common/Button";
 import {
   HeaderSection,
@@ -34,20 +33,20 @@ const Header = ({ t }: { t: TFunction }) => {
     return (
       <>
         <CustomNavLinkSmall onClick={() => scrollTo("about")}>
-          <Span>{t("About")}</Span>
+          <Span>Tentang</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <Span>{t("Mission")}</Span>
+          <Span>Layanan</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("product")}>
-          <Span>{t("Product")}</Span>
+          <Span>Portofolio</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall
           style={{ width: "180px" }}
           onClick={() => scrollTo("contact")}
         >
           <Span>
-            <Button>{t("Contact")}</Button>
+            <Button>Hubungi Kami</Button>
           </Span>
         </CustomNavLinkSmall>
       </>
@@ -59,7 +58,7 @@ const Header = ({ t }: { t: TFunction }) => {
       <Container>
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
-            <SvgIcon src="logo.svg" width="101px" height="64px" />
+            <h2 style={{ margin: 0, color: "#2e186a" }}>Diginest</h2>
           </LogoContainer>
           <NotHidden>
             <MenuItem />

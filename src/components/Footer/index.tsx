@@ -56,50 +56,49 @@ const Footer = ({ t }: { t: TFunction }) => {
               <Para>
                 {t(`Do you have any question? Feel free to reach out.`)}
               </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
+              <a href="mailto:hello@diginest.id">
                 <Chat>{t(`Let's Chat`)}</Chat>
               </a>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Policy")}</Title>
-              <Large to="/">{t("Application Security")}</Large>
-              <Large to="/">{t("Software Principles")}</Large>
+              <Title>Layanan</Title>
+              <Large to="/">Landing Page</Large>
+              <Large to="/">Company Profile</Large>
+              <Large to="/">Toko Online</Large>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
               <Empty />
-              <Large to="/">{t("Support Center")}</Large>
-              <Large to="/">{t("Customer Support")}</Large>
+              <Large to="/">Website Custom</Large>
+              <Large to="/">Maintenance</Large>
             </Col>
           </Row>
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
               <Language>{t("Address")}</Language>
-              <Para>Rancho Santa Margarita</Para>
-              <Para>2131 Elk Street</Para>
-              <Para>California</Para>
+              <Para>Kota Tasikmalaya, Jawa Barat</Para>
+              <Para>Indonesia</Para>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Company")}</Title>
-              <Large to="/">{t("About")}</Large>
-              <Large to="/">{t("Blog")}</Large>
-              <Large to="/">{t("Press")}</Large>
-              <Large to="/">{t("Careers & Culture")}</Large>
+              <Large to="/">Tentang Kami</Large>
+              <Large to="/">Portofolio</Large>
+              <Large to="/">Testimoni</Large>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
               <Label htmlFor="select-lang">{t("Language")}</Label>
               <LanguageSwitchContainer>
-                <LanguageSwitch onClick={() => handleChange("en")}>
+                <LanguageSwitch onClick={() => handleChange("id")}>
                   <SvgIcon
-                    src="united-states.svg"
+                    src="indonesia.svg"
                     aria-label="homepage"
                     width="30px"
                     height="30px"
                   />
                 </LanguageSwitch>
-                <LanguageSwitch onClick={() => handleChange("es")}>
+                <LanguageSwitch onClick={() => handleChange("en")}>
                   <SvgIcon
-                    src="spain.svg"
+                    src="united-states.svg"
                     aria-label="homepage"
                     width="30px"
                     height="30px"
@@ -119,43 +118,18 @@ const Footer = ({ t }: { t: TFunction }) => {
           >
             <NavLink to="/">
               <LogoContainer>
-                <SvgIcon
-                  src="logo.svg"
-                  aria-label="homepage"
-                  width="101px"
-                  height="64px"
-                />
+                <h3>Diginest Agency</h3>
               </LogoContainer>
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
-                src="github.svg"
+                href="https://instagram.com/diginest.agency"
+                src="instagram.svg"
               />
               <SocialLink
-                href="https://twitter.com/Adrinlolx"
-                src="twitter.svg"
+                href="https://wa.me/6281234567890"
+                src="whatsapp.svg"
               />
-              <SocialLink
-                href="https://www.linkedin.com/in/lasha-kakabadze/"
-                src="linkedin.svg"
-              />
-              <SocialLink
-                href="https://medium.com/@lashakakabadze/"
-                src="medium.svg"
-              />
-              <a
-                href="https://ko-fi.com/Y8Y7H8BNJ"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  height="36"
-                  style={{ border: 0, height: 36 }}
-                  src="https://storage.ko-fi.com/cdn/kofi3.png?v=3"
-                  alt="Buy Me a Coffee at ko-fi.com"
-                />
-              </a>
             </FooterContainer>
           </Row>
         </Container>
