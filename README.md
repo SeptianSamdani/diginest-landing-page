@@ -1,5 +1,7 @@
 # Diginest Agency - Landing Page
 
+![Diginest Landing Page](public/img/landing-page.webp)
+
 ![Diginest Logo](public/img/icons/logo-diginest.png)
 
 ## 🚀 Tentang Diginest Agency
