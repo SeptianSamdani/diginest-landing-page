@@ -1,4 +1,4 @@
-# Diginest Agency - Landing Page
+# Diginest Agency
 
 ![Diginest Landing Page](public/img/landing-page.webp)
 
