@@ -6,7 +6,6 @@
 
 **Diginest Agency** adalah partner terpercaya dalam pengembangan website profesional. Kami hadir untuk membantu bisnis Anda tampil profesional di dunia digital dengan website yang modern, responsif, dan sesuai kebutuhan.
 
-**Website:** [https://diginest.id](https://diginest.id)
 
 ## Layanan Kami
 
