@@ -58,7 +58,10 @@ const Header = ({ t }: { t: TFunction }) => {
       <Container>
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
-            <h2 style={{ margin: 0, color: "#2e186a" }}>Diginest</h2>
+            <img 
+              src="/img/icons/logo-diginest.webp" 
+              alt="Diginest Logo" 
+            />
           </LogoContainer>
           <NotHidden>
             <MenuItem />

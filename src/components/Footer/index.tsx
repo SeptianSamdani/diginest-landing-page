@@ -118,7 +118,10 @@ const Footer = ({ t }: { t: TFunction }) => {
           >
             <NavLink to="/">
               <LogoContainer>
-                <h3>Diginest Agency</h3>
+                <img 
+                  src="/img/icons/logo-diginest.webp" 
+                  alt="Diginest Logo" 
+                />
               </LogoContainer>
             </NavLink>
             <FooterContainer>

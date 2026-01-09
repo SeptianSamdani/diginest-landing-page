@@ -1,112 +1,160 @@
-![landy](https://user-images.githubusercontent.com/48876996/121569479-e179db80-ca31-11eb-8a48-9c3de9b142f3.gif)
+# Diginest Agency - Landing Page
 
-![Landy React Template License](https://img.shields.io/github/license/Adrinlol/landy-react-template)
-![Landy React Template Release Date](https://img.shields.io/github/release-date/Adrinlol/landy-react-template)
-![Landy React TemplateStars](https://img.shields.io/github/stars/Adrinlol/landy-react-template)
-![Landy React Template Language](https://img.shields.io/github/languages/top/Adrinlol/landy-react-template)
-![Landy React Template TypeScript](https://badgen.net/npm/types/tslib)
+![Diginest Logo](public/img/icons/logo-diginest.png)
 
-## Free React landing page template
+## 🚀 Tentang Diginest Agency
 
-[Landy][Landy] is an open-source React landing page template written in TypeScript, designed for developers and startups, who want to create a quick and professional landing page for their business or project.
+**Diginest Agency** adalah partner terpercaya dalam pengembangan website profesional. Kami hadir untuk membantu bisnis Anda tampil profesional di dunia digital dengan website yang modern, responsif, dan sesuai kebutuhan.
 
-This React template comes with multi-lingual support, smooth animations, set of ready to use sections and most importantly, all of the content is stored in the JSON files, so that you can manage the texts without having any prior knowledge in React.js.
+🌐 **Website:** [https://diginest.id](https://diginest.id)
 
-## Table of contents
+## 💼 Layanan Kami
 
-- [Features](#features)
-- [Google Lighthouse](#google-lighthouse)
-  - [Performance](#performance)
-  - [Accessibility](#accessibility)
-  - [Best Practices](#best-practices)
-  - [SEO](#seo)
-- [Demo](#demo)
-- [Installation](#installation)
-- [Special Thanks](#special-thanks)
-- [Usage](#usage)
-- [License](#license)
+| Layanan                | Deskripsi                                                   |
+| ---------------------- | ----------------------------------------------------------- |
+| 🎯 **Landing Page**    | Website satu halaman yang efektif untuk promosi produk/jasa |
+| 🏢 **Company Profile** | Website profil perusahaan yang profesional dan informatif   |
+| 🛒 **Toko Online**     | E-commerce lengkap dengan sistem pembayaran terintegrasi    |
+| ⚙️ **Web Custom**      | Aplikasi web custom sesuai kebutuhan bisnis Anda            |
+| 🔧 **Maintenance**     | Layanan perawatan dan update website berkala                |
 
-## Features
+## ✨ Keunggulan Kami
 
-Your project will have everything you need to build a modern single-page React app:
+- 🎨 **Desain Modern** - Tampilan yang elegan dan up-to-date
+- 📱 **Responsif** - Sempurna di semua perangkat (desktop, tablet, mobile)
+- ⚡ **Performa Tinggi** - Website cepat dan optimal
+- 🔍 **SEO Friendly** - Dioptimasi untuk mesin pencari
+- 💰 **Harga Terjangkau** - Mulai dari Rp 2.5 Juta
+- 🛡️ **Support & Maintenance** - Garansi dan dukungan teknis
 
-- 🎁 **Modern** – Template created using the latest features of React (State management using Hooks, Code-Splitting to reduce the bundle size)
+## 💎 Paket Harga
 
-- 💻 **Responsive** – Highly responsive and reusable UI components, that change depending on the provided props
+### Starter - Rp 2.5 Juta
 
-- 🚀 **Fast** – Buttery smooth experience thanks to the implementation of best practices and no third party dependencies, resulting in <b>PERFECT</b> Google Lighthouse scores
+- Cocok untuk landing page sederhana
+- 3-5 Halaman
+- Domain + Hosting 1 Tahun
+- SSL Certificate
+- SEO Basic
 
-- 🏷 **TypeScript support** – Landy is written in TypeScript to improve the DX
+### Professional - Rp 5 Juta
 
-- 🌍 **Internationalization** - Prebuilt standalone file that works in every environment and doesn't require reloading the page to translate the content
+- Untuk company profile bisnis
+- 7-10 Halaman
+- Admin Panel CMS
+- Blog System
+- SEO Advanced
 
-- 🛸 **Routing** - Each file inside the src/pages directory will generate its own route, so you don't have to manually handle the routing
+### Enterprise - Rp 10 Juta+
 
-- 🤙 **Contact Form** - Contact form written in React Hooks, with uncontrolled form validation to reduce unnecessary performance penalty. You just need to provide the endpoint
+- Toko online & aplikasi custom
+- Unlimited Halaman
+- E-commerce & Payment Gateway
+- Advanced Analytics
+- Support Priority
 
-- ⚙️ **Maintenance** - All of the content is stored in the JSON files, so that you can easily manage the content of the website
+## 🛠️ Tech Stack
 
-## Google Lighthouse
+Project ini dibangun menggunakan:
 
-![1](https://user-images.githubusercontent.com/48876996/121569366-c313e000-ca31-11eb-940c-187f556ff0d6.png)
+- ⚛️ **React 18** - Library JavaScript untuk UI
+- 📘 **TypeScript** - Type-safe JavaScript
+- 🎨 **Styled Components** - CSS-in-JS styling
+- 🐜 **Ant Design** - UI Component Library
+- 🌍 **i18next** - Internationalization (ID/EN)
+- ✨ **React Awesome Reveal** - Animasi smooth
 
-[Google Lighthouse][Google Lighthouse] is an open-source, automated tool for measuring the quality of web pages. Google Lighthouse audits performance, accessibility and search engine optimization of web pages.
+## 📦 Instalasi
 
-### Performance
+### Prerequisites
 
-Audits for metrics like first paint and time to interactive to determine lag.
+- Node.js v16+
+- npm atau yarn
 
-### Accessibility
+### Setup
 
-Checks for common issues that may prevent users from accessing your content.
+```bash
+# Clone repository
+git clone https://github.com/diginest-agency/diginest-landing-page.git
 
-### Best Practices
+# Masuk ke direktori
+cd diginest-landing-page
 
-Looks for everything from HTTPS usage to correct image aspect ratios.
+# Install dependencies
+npm install
 
-### SEO 
+# Jalankan development server
+npm start
+```
 
-Checks for best practices to ensure your site is discoverable.
+Website akan berjalan di `http://localhost:3000`
 
+### Build Production
 
-## Demo
+```bash
+# Build untuk production
+npm run build
 
-Check the live demo here 👉️ https://landy-web.netlify.app/
+# Deploy ke GitHub Pages
+npm run deploy
+```
 
+## 📁 Struktur Project
 
-### Installation
+```
+diginest-landing-page/
+├── public/
+│   ├── img/              # Gambar dan assets
+│   ├── locales/          # File terjemahan (id/en)
+│   ├── index.html        # HTML template dengan SEO
+│   ├── manifest.json     # PWA manifest
+│   ├── robots.txt        # Search engine robots
+│   └── sitemap.xml       # Sitemap untuk SEO
+├── src/
+│   ├── components/       # React components
+│   ├── common/           # Reusable components
+│   ├── content/          # JSON content files
+│   ├── pages/            # Page components
+│   └── styles/           # Global styles
+└── package.json
+```
 
-You’ll need to have Node 10.16.0 or later version on your local development machine (but it’s not required on the server). I recommend using the latest LTS version.
+## 🔍 SEO Features
 
-To create a new app, you have to:
+Website ini sudah dioptimasi untuk SEO dengan:
 
-Begin by cloning this repository to establish your own local copy. This process is straightforward and ensures you have all the necessary files and resources at your fingertips. You can find step-by-step instructions in this helpful article: Cloning a [repository on GitHub.com](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository).
+- ✅ Meta Tags lengkap (title, description, keywords)
+- ✅ Open Graph untuk social sharing
+- ✅ Twitter Cards
+- ✅ Schema.org Structured Data
+- ✅ Local Business Schema
+- ✅ FAQ Schema
+- ✅ Sitemap XML
+- ✅ Robots.txt optimized
+- ✅ Semantic HTML
+- ✅ Mobile-friendly (responsive)
 
-## What's included
+## 📞 Kontak
 
-- [antd][antd] - React UI library that contains a set of high quality components.
-- [react-awesome-reveal][react-awesome-reveal] - High performance library that adds reveal animations using the Intersection Observer API.
-- [styled-componets][styled-componets] - Variant on “CSS-in-JS”—which solves many of the problems with traditional CSS.
-- [i18next][i18next] - Internationalization-framework written in and for JavaScript.
+Hubungi kami untuk konsultasi gratis:
 
-## Special thanks
+- 📧 **Email:** hello@diginest.id
+- 📱 **WhatsApp:** [+62 812-3456-7890](https://wa.me/6281234567890)
+- 📸 **Instagram:** [@diginest.agency](https://instagram.com/diginest.agency)
 
-[whoooa][whoooa] - Use fantastic, handmade illustrations with easily changeable colors and different styles.
+## 📍 Lokasi
 
-## Usage
+**Kota Tasikmalaya, Jawa Barat, Indonesia**
 
-Use it for whatever you want, and be sure to reach out to me on [Twitter](https://twitter.com/Adrinlolx) if you have any questions, or build something cool with it.
+---
 
-## License
+## 📄 License
 
-Licensed under the MIT license.
+Project ini dilisensikan di bawah [MIT License](LICENSE).
 
-<!-- prettier-ignore-start -->
-[antd]: https://github.com/ant-design/ant-design
-[react-awesome-reveal]: https://www.npmjs.com/package/react-awesome-reveal
-[styled-componets]: https://github.com/styled-components/styled-components
-[i18next]: https://github.com/i18next/i18next
-[whoooa]: https://www.whoooa.rocks/
-[Landy]: https://www.npmjs.com/package/cra-template-adrinlol
-[Google Lighthouse]: https://developers.google.com/web/tools/lighthouse
-<!-- prettier-ignore-end -->
+---
+
+<p align="center">
+  <b>© 2026 Diginest Agency. All rights reserved.</b><br>
+  <i>Transform Your Business with Professional Website</i>
+</p>
