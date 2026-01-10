@@ -30,7 +30,7 @@ export const NavLink = styled(Link)`
 `;
 
 export const Extra = styled("section")`
-  background: rgb(241, 242, 243);
+  background: #ffffff;
   position: relative;
   width: 100%;
   margin-right: auto;
@@ -41,6 +41,19 @@ export const Extra = styled("section")`
 export const LogoContainer = styled("div")`
   display: flex;
   position: relative;
+
+  img {
+    height: 80px;
+    width: auto;
+
+    @media only screen and (max-width: 768px) {
+      height: 65px;
+    }
+
+    @media only screen and (max-width: 480px) {
+      height: 50px;
+    }
+  }
 `;
 
 export const Para = styled("div")`
@@ -88,10 +101,8 @@ export const Empty = styled("div")`
 `;
 
 export const FooterContainer = styled("div")`
-  max-width: 510px;
-  width: 100%;
   display: flex;
-  justify-content: space-between;
+  gap: 20px;
   text-align: center;
   align-items: center;
   transition: all 0.1s ease-in-out;
@@ -108,10 +119,7 @@ export const FooterContainer = styled("div")`
 
   @media screen and (max-width: 769px) {
     width: auto;
-
-    a:not(:last-child) {
-      display: none;
-    }
+    gap: 15px;
   }
 
   div {
